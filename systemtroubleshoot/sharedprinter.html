@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Darshan Tech Solution </title>
+    <link rel="stylesheet" href="../css/styles.css">
+	 
+</head>
+<body>
+    <header>
+        <h1> <a href="https://www.youtube.com/c/DarshanTechSolution2020" target="new" class="custom-link">  Darshan Tech Solution </a></h1>
+        <nav>
+            <ul>
+				<li><a href="../menu/index.html" class="custom-link2"><b>Home</b></a></li> 
+				<li><a href="../menu/Online Services.html"class="custom-link2"><b>Online Services</b></a></li>
+				<li><a href="../menu/System Trouble Shoot.html" class="custom-link2"><b>System Trouble Shoot</b></a></li>
+				<li><a href="../menu/Job Recruitment.html" class="custom-link2"><b>Job Recruitment</b></a></li>
+                
+            </ul>
+        </nav> 
+    </header>
+       
+      
+    <main>
+	  <a href="javascript:history.back()" class="back-button">Back</a>
+        <article> 
+		
+           <h3 style="text-align: center;"><a href="https://www.youtube.com/c/DarshanTechSolution2020" target="_blank" class="custom-link">Darshan Tech Solution</a></h3>
+          <h3 style="text-align: center;">Windows cannot connect to the Printer - Error 0X0000011b</h3>
+          <h3 style="text-align: center;"><a href="https://youtu.be/-9WFnirwR-U?si=UpCD5p1LtGyqt9y0" target="_blank" class="custom-link">YouTube Video</a> </h3>
+          <div class="line-spaced">
+         
+		 </div>
+          <h3> <a href="https://youtu.be/-9WFnirwR-U?si=UpCD5p1LtGyqt9y0" target="_blank" class="custom-link"> Solution for Windows cannot connect to the Printer Error code 0X0000011b - Shared Printer Connecting Issue</a></h3>
+		  <div class="line-spaced">
+		  <h1> Shared printer is unable to connect for differenty types of Operating System. i.e., The share printer is unable to connect between Windows 10 and Windows 11. Here are the steps to follow to connect the shared printer for different operating systems.</h1>
+		  <img src="../images/printer3.png" alt="Printer Error" width="800">
+		  
+		  <p>1. Open Run Command (Win Key + R ) in Host Machin. (Printer is directly connected to the system)</p>
+		  <p>2. Type <b> regedit </b> </p>
+		  <p>3. Expand the path </p>
+		  <p font style="color: maroon"> <b> Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print </b> </p>
+		  <img src="../images/printer4.png" alt="Printer Error" width="800">
+		 <ul>
+					<li>Right Click then New-->DWORD (32-bit)Value  </li>
+					 <img src="../images/printer5.png" alt="Printer Error" width="800">
+					<li> Type the key Value same what i'm typing here <b> RPCAuthnLevelPrivacyEnabled </b> and set value <b> 0 </b> </li>
+					<img src="../images/printer6.png" alt="Printer Error" width="800">
+					<li> Open <b> Services.msc </b>  find the Printer spooler, Restart the services.</li>
+					<li> Thats All</li>
+		</ul>
+		<p>Restrat the Computer. After restart the shared printer can be connect</p>		
+
+		  </div>
+        
+<p><b>Follow on my Social Media</b></p>
+			<p><a href="https://whatsapp.com/channel/0029VaBS8cfEFeXdhi2yU10N" target="_blank" class="custom-link"><img src="..\images\WhatsApp.jpeg"></a>
+				<a href="https://www.youtube.com/c/DarshanTechSolution2020" target="_blank" class="custom-link"><img src="..\images\Youtube.jpg"></a></a> 
+				<a href="https://www.facebook.com/profile.php?id=100064339953609" target="_blank" class="custom-link"><img src="..\images\FB.png"> </a> 
+				<a href="https://t.me/DarshanTechSolution" target="_blank" class="custom-link"><img src="..\images\telegram.jpg"></a> </b> </p> </P>
+        <!-- More articles can be added here -->
+    <table border="0": width=100%>
+        <tbody>
+          <thead>
+            <th> <div class="previous-button">
+        <a href="..\systemtroubleshoot\operaioncouldnotbecompleted.html" class="button">Previous</a>
+    </div> </th>
+            <th> <div class="next-button">
+        <a href="..\menu\index.html" class="button">Home</a>
+    </div> </th>
+          </thead>
+        </tbody>
+      </table>
+	</article>
+	
+	</main> 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var scrollToTopButton = document.getElementById("scrollToTopButton");
+    
+    // Show the button when the user has scrolled down 20px from the top
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopButton.style.display = "block";
+        } else {
+            scrollToTopButton.style.display = "none";
+        }
+    };
+    
+    // Scroll to the top when the button is clicked
+    scrollToTopButton.addEventListener("click", function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+});
+</script>
+
+
+<button id="scrollToTopButton" class="scroll-to-top-button">Scroll to Top</button>
+<div style='clear: both;'></div>
+<footer>
+    	<p> <a href=".\websitepolicy.html" class="custom-link2"><b>Website Policy</b> | <a href=".\disclaimer.html" class="custom-link2"><b>Disclaimer</b> | <a href=".\aboutus.html" class="custom-link2"><b>About us</b> | <a href=".\contactus.html" class="custom-link2"><b>Contact us</b>  </a> |  &copy; 2026 <a href="https://www.youtube.com/c/DarshanTechSolution2020" target="new" class="custom-link">  Darshan Tech Solution</a> </p> 
+    </footer> 
+</body>
+</html>

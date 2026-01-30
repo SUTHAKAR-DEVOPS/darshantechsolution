@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+        header {
+            background-color: #333;
+			color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+		
+
+	nav ul {
+    list-style: none;
+	background-color: #333;
+    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+	font-size:25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main {
+    max-width: 1366px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+		
+}
+
+
+/* Main Link */
+.custom-link {
+    color: orange; /* Set the initial color */
+    text-decoration: none; /* Remove underline, if desired */
+}
+
+.custom-link:hover {
+    color: #0093AF; /* Set the color on hover */
+    /* You can customize other styles on hover as well */
+}
+
+/* Text link */
+
+.custom-link2 {
+    color: white; /* Set the initial color */
+    text-decoration: none; /* Remove underline, if desired */
+}
+
+.custom-link2:hover {
+    color: #2D68C4; /* Set the color on hover */
+    /* You can customize other styles on hover as well */
+}
+
+/*Line Space */
+
+.line-spaced {
+    line-height: 2; /* Adjust the value to set the desired line spacing */
+}
+p {
+	font-size:20px;
+}
+
+h2 {
+	color:#800000;
+	font-size:40px;
+}
+h3 {
+	color: #0047AB;
+	font-size:30px;
+}
+h4
+{
+	font-size:25px;
+}
+
+li {
+	font-size:20px;
+}
+	
+footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            /*padding: 1px; */
+            position: fixed;
+            bottom: 0;
+            width: 100%; 
+						
+        }
+
+/*youube video */
+.youtube-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;      /* change width if needed */
+    margin: 20px auto;    /* center align */
+    padding-top: 56.25%;  /* 16:9 aspect ratio */
+}
+
+.youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+	
+/*back Button */
+
+.back-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        /* Hover effect */
+        .back-button:hover {
+            background-color: #333;
+			color: orange;
+        }
+		
+/* Next  button */
+.next-button {
+    text-align: right;
+    margin: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #333;
+}
+/* Previous  button */
+.previous-button {
+    text-align: left;
+    margin: 1px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #333;
+}
+/* Scroll to Top button */
+.scroll-to-top-button {
+    display: none; 
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+    background-color: #90EE90;
+    color: #FFF;
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.scroll-to-top-button:hover {
+    background-color: #008000; 
